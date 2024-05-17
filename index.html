@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normolize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-content" style="position: relative;">
+
+
+        <div class="wrapper" style="width: 100%; background-color: white;">
+            <div class="nav-box"
+                style="display: flex; align-items: center; justify-content: space-between; width: 1200px; margin: auto;">
+                <div class="first-box" style="display: flex; align-items: center;">
+                    <i class="fa-solid fa-earth-americas" style="color: #74C0FC;"></i>
+                    <h3 class="nav-h3" style="margin-left: 5px;">Travel</h3>
+                </div>
+
+                <div class="second-box" style="display: flex; align-items: center;">
+                    <ul style="margin-top: 15px; margin-right: 1rem; display: flex; gap: 1rem;">
+                        <li style="cursor: pointer; color: grey;">home</li>
+                        <li style="cursor: pointer; color: grey;">packages</li>
+                        <li style="cursor: pointer; color: grey;">shop</li>
+                        <li style="cursor: pointer; color: grey;">about</li>
+                        <li style="cursor: pointer; color: grey;">pages</li>
+                        <li style="cursor: pointer; color: grey;">news</li>
+                        <li style="cursor: pointer; color: grey;">contact</li>
+                    </ul>
+                    <button class="nav-btn"
+                        style="border: none; background: linear-gradient(90deg in hsl shorter hue, aqua, rgb(124, 124, 124)); padding: 10px 20px; border-radius: 300px;"><a
+                            href="#" style="color: white; text-decoration: none;">book now</a></button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="wrap" style="position: relative; ">
+            <div class="mini-wrap" style="width: 1300px; margin: auto;">
+                <div class="cont-div" style="margin-bottom: 50px; position: relative; color: white; top: 150px;">
+                    <h3 class="cont-h3">our packages</h3>
+                    <h1 class="cont-h1" style="font-weight: bold;">search your <span
+                            style="border-bottom: solid 3px aqua; border-radius: 3px; font-weight: bold;">holiday</span>
+                    </h1>
+                </div>
+
+
+                <div class="body-box"
+                    style="background-color: white; color: grey; display: flex; justify-content: space-evenly; border-radius: 15px; padding: 50px 0px; position: relative; top: 150px; ">
+                    <div class="first-inp">
+                        <p class="inp-p" style=" margin-left: 5px;">search your destination:</p>
+                        <input
+                            style="color: white; background-color: rgba(128, 128, 128, 0.398); border: none; outline: none; width: 400px; padding: 10px; border-radius: 300px;"
+                            type="search" placeholder="enter name here...">
+                    </div>
+                    <div class="first-inp">
+                        <p class="inp-p" style=" margin-left: 5px;">select your date:</p>
+                        <input
+                            style="color: white; background-color: rgba(128, 128, 128, 0.398); border: none; outline: none; width: 400px; padding: 10px; border-radius: 300px;"
+                            type="date" placeholder="enter name here...">
+                    </div>
+                    <div class="first-inp">
+                        <div class="ipi" style="display: flex;">
+                            <p class="inp-p" style=" margin-left: 5px;">max price:</p>
+                            <p class="inp-p-2"
+                                style="margin-left: 270px; padding: 0; font-size: 25px; color: black; font-weight: bold;">
+                                5000$</p>
+                        </div>
+                        <input type="range" class="form-range" id="customRange1">
+                    </div>
+                </div>
+                <div class="btn" style="position: absolute; left: 650px; top: 445px;">
+                    <button class="inp-btn"
+                        style="background-color: aqua; color: white; font-weight: bold; padding: 10px 20px; border-radius: 35px; border: none; outline: none; transition: all ease .3s; ">more
+                        filters</button>
+                </div>
+
+                <div class="link-box" style="position: absolute; top: 600px; left: 50px;">
+                    <a href="#" style="margin-right: 10px;"><i class="fa-brands fa-telegram fa-xl"
+                            style="color: #74C0FC;"></i></a>
+                    <a href="#" style="margin-right: 10px;"><i class="fa-brands fa-instagram fa-xl"
+                            style="color: #74C0FC;"></i></a>
+                    <a href="#" style="margin-right: 10px;"><i class="fa-brands fa-youtube fa-xl"
+                            style="color: #74C0FC"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second-body" style="position: absolute; top: 800px; left: 110px;">
+            <div class="second-h1" style="position: relative; left: 390px;">
+                <h1 class="sec-h1" style="font-weight: bold;">more visited <span class="sec-span"
+                        style="border-bottom: solid 3px aqua; border-radius: 3px; font-weight: bold;">destinations</span>
+                </h1>
+            </div>
+
+            <div class="cards" style="display: flex; gap: 1rem; position: absolute; left: 50px; top: 70px;">
+
+                <div class="card" style="width: 400px; padding-bottom: 15px;">
+                    <img src="secret-travel-guide-hGWNhbQDrQE-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">bora bora</h5>
+                        <p class="card-text" style="color: rgba(128, 128, 128, 0.573);"><i
+                                class="fa-solid fa-location-dot"></i> new zealand</p>
+                    </div>
+                    <div class="catch-box"
+                        style="display: flex; align-items: center; justify-content: space-between; width: 360px; position: relative; left: 15px; bottom: 15px; border-bottom: solid 1px rgba(128, 128, 128, 0.398); border-top: solid 1px rgba(128, 128, 128, 0.398); padding: 15px 0px;">
+                        <div class="p-box">
+                            <p style="margin: 0; padding: 0; color: rgba(128, 128, 128, 0.573);">cultural <br> relax</p>
+                        </div>
+                        <div class="pay-box">
+                            <p class="pay-p" style="color: black; font-weight: bold;">500$</p>
+                        </div>
+                    </div>
+                    <p class="lorem-p" style="color: rgb(124, 124, 124); width: 360px; position: relative; left: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis labore similique dignissimos
+                        dicta eligendi deserunt possimus atque quidem. Numquam, quo?</p>
+                    <a href="#" class="btn btn-primary"
+                        style="width: 150px; border-radius: 30px; background-color: aqua; border: none; position: relative; left: 15px;">Go
+                        somewhere</a>
+                </div>
+
+                <div class="card" style="width: 400px; padding-bottom: 15px;">
+                    <img src="secret-travel-guide-hGWNhbQDrQE-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">machu pichchu</h5>
+                        <p class="card-text" style="color: rgba(128, 128, 128, 0.573);"><i
+                                class="fa-solid fa-location-dot"></i>peru</p>
+                    </div>
+                    <div class="catch-box"
+                        style="display: flex; align-items: center; justify-content: space-between; width: 360px; position: relative; left: 15px; bottom: 15px; border-bottom: solid 1px rgba(128, 128, 128, 0.398); border-top: solid 1px rgba(128, 128, 128, 0.398); padding: 15px 0px;">
+                        <div class="p-box">
+                            <p style="margin: 0; padding: 0; color: rgba(128, 128, 128, 0.573);">cultural <br> relax</p>
+                        </div>
+                        <div class="pay-box">
+                            <p class="pay-p" style="color: black; font-weight: bold;">500$</p>
+                        </div>
+                    </div>
+                    <p class="lorem-p" style="color: rgb(124, 124, 124); width: 360px; position: relative; left: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis labore similique dignissimos
+                        dicta eligendi deserunt possimus atque quidem. Numquam, quo?</p>
+                    <a href="#" class="btn btn-primary"
+                        style="width: 150px; border-radius: 30px; background-color: aqua; border: none; position: relative; left: 15px;">Go
+                        somewhere</a>
+                </div>
+
+                <div class="card" style="width: 400px; padding-bottom: 15px;">
+                    <img src="secret-travel-guide-hGWNhbQDrQE-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">great barrier reef</h5>
+                        <p class="card-text" style="color: rgba(128, 128, 128, 0.573)"><i
+                                class="fa-solid fa-location-dot"></i>australia</p>
+                    </div>
+                    <div class="catch-box"
+                        style="display: flex; align-items: center; justify-content: space-between; width: 360px; position: relative; left: 15px; bottom: 15px; border-bottom: solid 1px rgba(128, 128, 128, 0.398); border-top: solid 1px rgba(128, 128, 128, 0.398); padding: 15px 0px;">
+                        <div class="p-box">
+                            <p style="margin: 0; padding: 0; color: rgba(128, 128, 128, 0.573);">cultural <br> relax</p>
+                        </div>
+                        <div class="pay-box">
+                            <p class="pay-p" style="color: black; font-weight: bold;">500$</p>
+                        </div>
+                    </div>
+                    <p class="lorem-p" style="color: rgb(124, 124, 124); width: 360px; position: relative; left: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis labore similique dignissimos
+                        dicta eligendi deserunt possimus atque quidem. Numquam, quo?</p>
+                    <a href="#" class="btn btn-primary"
+                        style="width: 150px; border-radius: 30px; background-color: aqua; border: none; position: relative; left: 15px;">Go
+                        somewhere</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="footer-navbar" style="width: 100%; position: absolute; top: 1600px; padding-top: 70px; padding-bottom: 70px; margin-bottom: 20px;">
+
+
+            <div class="footer-info"
+                style="color: white; display: flex; align-items: center; gap: 3rem; position: relative; left: 450px;">
+
+                <div class="footer-klk">
+                    <p class="footer-p" style="color: white;">keep in touch</p>
+                    <h3 class="footer-h3" style="font-weight: bold;">travel with us</h3>
+                </div>
+
+                <div class="footer-inp">
+                    <input type="email" placeholder="Enter your email"
+                        style="width: 200px; padding: 10px 15px; background-color: transparent; border: none; outline: solid 1px white; border-radius: 30px; color: white;">
+                </div>
+
+                <div class="footer-btn">
+                    <button class="btn"><a href="#"
+                            style="color: white; text-decoration: none; transition: all ease .3s; background-color: #74C0FC; padding: 10px 15px; border-radius: 30px; border: solid 1px grey;">send <i
+                                class="fa-regular fa-paper-plane"></i></a>
+                    </button>
+                </div>
+
+
+            </div>
+
+
+            <div class="white-box"
+                style="background-color: white; border-radius: 15px; padding: 10px; padding-top: 50px; padding-bottom: 50px; width: 1000px; position: relative; left: 300px; display: flex; justify-content: space-between;">
+                <div class="first-part" style="width: 500px;">
+                    <h3 class="first-h3"><i class="fa-solid fa-earth-americas" style="color: #74C0FC;"></i> Travel.</h3>
+                    <p class="white-p" style="color: grey;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Facere amet sunt ad facilis provident odit veritatis obcaecati, recusandae laboriosam aliquam?
+                    </p>
+
+                    <div class="btn-group" style="gap: 10px;">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="second-part" style="display: flex; gap: 3rem;">
+                    <div class="dfd">
+                        <h6 style="font-weight: bold; margin-bottom: 15px;">our agency</h6>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                    </div>
+                    <div class="dfd">
+                        <h6 style="font-weight: bold; margin-bottom: 15px;">partners</h6>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                    </div>
+                    <div class="dfd">
+                        <h6 style="font-weight: bold; margin-bottom: 15px;">last minute</h6>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                        <p style="padding: 0; margin: 0; color: grey;">lorem</p>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="aqua-box" style="display: flex; justify-content: space-between; padding: 10px 20px; background-color: aqua; color: white; width: 1000px; position: relative; left: 300px; top: -15px; border-radius: 0px 0px 15px 15px;">
+                <div class="fg">
+                    <p class="aqua-p" style="padding: 0;
+                    margin: 0;">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="dsa">
+                    <p class="aqua" style="padding: 0;
+                    margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
