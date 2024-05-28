@@ -56,8 +56,92 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 500px;
 }
 
-.footer-btn a:hover{
+.footer-btn a:hover {
     color: #333;
+}
+
+.ul-li li {
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+.ul-li li:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.nav-btn {
+    border: none;
+    background: linear-gradient(90deg in hsl shorter hue, aqua, rgb(124, 124, 124));
+    padding: 10px 20px;
+    border-radius: 300px;
+    transition: all ease .3s;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+.link-box a {
+    margin-right: 10px;
+    transition: all ease .3s;
+}
+
+.link-box i {
+    transition: all ease .3s;
+}
+
+.link-box i:hover {
+    transform: scale(1.2);
+}
+
+.link-box {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+.inp-btn {
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    transition: all ease .3s;
+}
+
+.inp-btn:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    position: absolute;
+    left: 650px;
+    top: 445px;
+}
+
+.footer-a {
+    position: absolute;
+    top: -430px;
+    left: -200px;
+    color: white;
+    text-decoration: none;
+    transition: all ease .3s;
+    background-color: #74C0FC;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: solid 1px grey;
+    transition: all ease .3s;
+}
+
+.footer-a:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: white;
+    border: none;
 }
